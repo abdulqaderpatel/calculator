@@ -4,7 +4,7 @@
     margin-left: 420px;
     border-radius:20px;
 
-    height:600px;
+    height:630px;
     width:400px;
     background-color: #AAAAAA;
     display:flex;
@@ -13,7 +13,7 @@
 }
 
 .container{
-    height:600px;
+    height:630px;
     width:400px;
     display:flex;
     margin:auto;
@@ -24,14 +24,14 @@
 }
 
 .display{
-    height:120px;
+    height:140px;
     background-color: #EEEEEE;
 }
 
 .special-buttons{
     height:120px;
     
-    margin-top: 20px;
+    margin-top: 35px;
 
     display:flex;
     justify-content: space-between;
@@ -40,15 +40,15 @@
 
 .clear{
     
-    border-radius:25px;
+    border-radius:10px;
   width:180px;
-  height:80%;
+  height:60%;
   background-color:#DD8888
 }
 
 .delete{
-    border-radius: 25px;
-    height:80%;
+    border-radius: 10px;
+    height:60%;
     width:180px;
     background-color:#9999EE
 }
