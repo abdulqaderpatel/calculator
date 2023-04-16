@@ -84,3 +84,7 @@
 .delete:hover{
     background: #00008b;
 }
+
+div .answer{
+    text-align:right;
+}

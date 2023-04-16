@@ -8,7 +8,7 @@ function getValue(clickedButton)
     {
         number="";
         num1.innerHTML=number;
-        answers.innerHTML="";
+        answers.innerHTML="                                                                                        0";
     }
 
     else if(clickedButton.value=="delete")
