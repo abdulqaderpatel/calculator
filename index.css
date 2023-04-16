@@ -26,6 +26,7 @@
 .display{
     height:140px;
     background-color: #EEEEEE;
+    overflow: hidden;
 }
 
 .special-buttons{
@@ -63,10 +64,23 @@
 }
 
 .buttons{
+    border-radius:15px;
     border:1px solid red;
     height:70px;
     width:70px;
     font-weight: bold;
     background-color: #EEEEEE;
 
+}
+
+.buttons:hover{
+    background-color:#CCCCCC;
+}
+
+.clear:hover{
+    background-color:#8b0000;
+}
+
+.delete:hover{
+    background: #00008b;
 }

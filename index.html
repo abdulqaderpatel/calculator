@@ -11,31 +11,36 @@
 
 <div class="calculator">
     <div class="container">
-        <div class="display">
+        <div class="display" style="display:flex">
+            <h1 class="number1" style="align-self: flex-start;"></h1>
+         
+            <h1 class="answer" style="align-self: flex-end;padding-left: 270px; "></h1>
+           
         </div>
         <div class="special-buttons">
-            <button class="clear">CLEAR</button>
-            <button class="delete">DELETE</button>
+            <button class="clear" value="clear" onClick="getValue(this)">CLEAR</button>
+            <button class="delete" value="delete" onClick="getValue(this)">DELETE</button>
         </div>
         <div class="button-container">
-            <button class="buttons">7</button>
-            <button class="buttons">8</button>
-            <button class="buttons">9</button>
-            <button class="buttons">÷</button>
-            <button class="buttons">4</button>
-            <button class="buttons">5</button>
-            <button class="buttons">6</button>
-            <button class="buttons">X</button>
-            <button class="buttons">1</button>
-            <button class="buttons">2</button>
-            <button class="buttons">3</button>
-            <button class="buttons"> -</button>
-            <button class="buttons">.</button>
-            <button class="buttons">0</button>
-            <button class="buttons"> =</button>
-            <button class="buttons">+</button>
+            <button class="buttons" onClick="getValue(this)" value="7">7</button>
+            <button class="buttons" onClick="getValue(this)" value="8">8</button>
+            <button class="buttons" onClick="getValue(this)" value="9">9</button>
+            <button class="buttons" onClick="getValue(this)" value="÷">÷</button>
+            <button class="buttons" onClick="getValue(this)" value="4">4</button>
+            <button class="buttons" onClick="getValue(this)" value="5">5</button>
+            <button class="buttons" onClick="getValue(this)" value="6">6</button>
+            <button class="buttons" onClick="getValue(this)" value="X">X</button>
+            <button class="buttons" onClick="getValue(this)" value="1">1</button>
+            <button class="buttons" onClick="getValue(this)" value="2">2</button>
+            <button class="buttons" onClick="getValue(this)" value="3">3</button>
+            <button class="buttons" onClick="getValue(this)" value="-"> -</button>
+            <button class="buttons" onClick="getValue(this)" value=".">.</button>
+            <button class="buttons" onClick="getValue(this)" value="0">0</button>
+            <button class="buttons" onClick="getValue(this)" value="="> =</button>
+            <button class="buttons" onClick="getValue(this)" value="+">+</button>
         </div>
     </div>
 </div>
 </body>
+<script src="index.js"></script>
 </html>
